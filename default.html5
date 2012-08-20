@@ -53,7 +53,9 @@ $if(toc)$
 $toc$
 </nav>
 $endif$
+<article>
 $body$
+</article>
 $for(include-after)$
 $include-after$
 $endfor$
