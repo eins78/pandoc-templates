@@ -56,8 +56,12 @@ $endif$
 <article>
 $body$
 </article>
+$if(include-after)$
+<footer>
 $for(include-after)$
 $include-after$
 $endfor$
+</footer>
+$endif$
 </body>
 </html>
